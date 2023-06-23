@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="testng_Basics.TC10_ToSelectAnItemThroughCategoriesAndAddToCart"/>
+      <class name="testng_Basics.TC12_ToCheckCpmpanyInfoInFBPageAndSwitchBackToDWS"/>
+      <class name="testng_Basics.TC4_AdvancedSearch"/>
+      <class name="testng_Basics.TC2_loginTestCase"/>
+      <class name="testng_Basics.TC8_AddAnitemInHomePageToCart"/>
+      <class name="testng_Basics.TC9_ToSubscribeForNewsLetter"/>
+      <class name="testng_Basics.TC1_RegisterTestCase"/>
+      <class name="testng_Basics.TC14_ToEditProfileDetails"/>
+      <class name="testng_Basics.TC13_AddRecentlyViewedItemsTocart"/>
+      <class name="testng_Basics.TC11_ToSelectAnItemThroughSortByPosition"/>
+      <class name="testng_Basics.TC5_VoteTestCase"/>
+      <class name="testng_Basics.TC16_ToSearchAnItem"/>
+      <class name="testng_Basics.TC15_ToPlaceAnOrderTroughCOD"/>
+      <class name="testng_Basics.TC7_ToSearchAndSelectAnItem"/>
+      <class name="testng_Basics.TC3_Search_items"/>
+      <class name="testng_Basics.TC6_HoverAndSelectAnItem"/>
+    </classes>i
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
